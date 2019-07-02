@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="239.0" prefWidth="303.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.properties">
+   <children>
+      <Label layoutX="64.0" layoutY="14.0" prefHeight="41.0" prefWidth="176.0" text="Properties" textFill="#e497aa">
+         <font>
+            <Font name="Calibri Bold" size="36.0" />
+         </font></Label>
+      <Label layoutX="26.0" layoutY="73.0" prefHeight="25.0" prefWidth="269.0" text="Generating type: MyMazeGenerator ">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label layoutX="26.0" layoutY="158.0" text="Num of threads: Infinity">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="120.0" text="Searching type: BEST First Search">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

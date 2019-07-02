@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="342.0" prefWidth="658.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.AboutController">
+   <children>
+      <TextArea disable="true" layoutX="13.0" layoutY="72.0" prefHeight="234.0" prefWidth="633.0" style="-fx-background-color: F7B0D6;" text="Programmers: Karin MIshor and Ilana Mordechai.&#10;Students in software and system information engineering department.&#10;At this project you can create and solve mazes by few algorithm &#10;such BFS, DFS, BEST.&#10;You can always  extend the code by adding strategies and search algorithm.&#10;We hope you enjoy playing our game!&#10;Karin &amp; Ilana.">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font></TextArea>
+      <Label layoutX="252.0" layoutY="14.0" prefHeight="41.0" prefWidth="140.0" text="About" textFill="#e497aa">
+         <font>
+            <Font name="Broadway" size="36.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

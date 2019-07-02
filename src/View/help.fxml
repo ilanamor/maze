@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="411.0" prefWidth="433.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Help">
+   <children>
+      <Label layoutX="176.0" layoutY="14.0" prefHeight="41.0" prefWidth="115.0" text="Help" textFill="#e497aa">
+         <font>
+            <Font name="Broadway" size="36.0" />
+         </font></Label>
+      <TextArea disable="true" layoutX="12.0" layoutY="101.0" prefHeight="200.0" prefWidth="407.0" style="-fx-background-color: F7B0D6;" text="Welcome to the maze game! &#10;For starting the game choose size for row and column.&#10;Both sizes should be an integers.&#10;Your character is the star.&#10;Your goal is the sun.&#10;For moving use the keybord.&#10;Goodlack!">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>
